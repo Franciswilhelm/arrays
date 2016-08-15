@@ -12,6 +12,11 @@ $(document).ready(function() {
     $("#output").text(result);
     $("#output2").text(result2);
     $("#output3").text(result3);
-    // $('ul').prepend('<li>''</li>');
+    $('ul').prepend('<li>'+result3[0]+'</li>');
+    $('ul').prepend('<li>'+result3[1]+'</li>');
+    $('ul').prepend('<li>'+result3[2]+'</li>');
+    $('ul').prepend('<li>'+result3[3]+'</li>');
+    $('ul').prepend('<li>'+result3[4]+'</li>');
+    $('ul').prepend('<li>'+result3[5]+'</li>');
   });
 });
